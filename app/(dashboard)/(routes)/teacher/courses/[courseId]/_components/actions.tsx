@@ -37,6 +37,7 @@ export const Actions = ({
         toast.success("Course published");
         confetti.onOpen();
       }
+
       router.refresh();
     } catch {
       toast.error("Something went wrong");
